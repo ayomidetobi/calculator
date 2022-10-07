@@ -1,0 +1,82 @@
+body{
+    background:#f7964b;
+}
+.calbody{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 480px;
+    height: 800px;
+    border-radius: 2%;
+    background: #e0e0e0;
+    box-shadow: inset 8px 8px 16px #cccccc,
+            inset -8px -8px 16px #f4f4f4;   
+}
+.output{
+    
+    height: 150px;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+   margin-top: 90px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+   flex-direction: column;
+   padding: 10px;
+   word-wrap: break-word;
+   word-break: break-all;
+   overflow: hidden;
+  
+}
+.output .previous-operand{
+    color: rgba(46, 42, 42, 0.75);
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .output .current-operand{
+    color: rgb(46, 42, 42);
+    font-size: 40px;
+    padding: 10px;
+  }
+.rowwide{
+    margin-right: auto;
+    margin-left: auto;
+    width: 93%;
+ 
+}
+button {
+    width: 90%;
+    border: none;
+    color: #090909;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+                text-align: center;
+                
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+   .magtop{
+       margin-top: 90px;
+   }
+   .org{
+       color: #f5a66b;
+   }
+   .backorg{
+       background-color: #ee7920;
+       color: whitesmoke;
+   }

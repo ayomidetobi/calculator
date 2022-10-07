@@ -1,0 +1,88 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/calculator.css" rel="stylesheet">
+    <script src="js/calculator.js" defer></script>
+  </head>
+
+  <body>
+      <div class="container calbody ">
+          <div class="row rowwide">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand">0</div>
+            </div>
+          </div>
+          <div class="row rowwide magtop">
+              <div class="col-3">
+                <button data-all-clear type="button" class="mx-auto backorg ">AC</button>
+              </div>
+              <div class="col-3">
+                <button type="button"data-delete class=" mx-auto org">DEL</button>    
+                </div>
+                <div class="col-3">
+                    <button type="button" data-operation class="mx-auto org ">%</button>  
+                </div>
+                <div class="col-3">
+                    <button type="button"data-operation class=" mx-auto org">/</button>    
+                </div>
+          </div>
+          <div class="row rowwide mt-4">
+            <div class="col-3">
+              <button type="button"data-number class="mx-auto ">1</button>
+            </div>
+            <div class="col-3">
+              <button type="button"data-number class=" mx-auto ">2</button>    
+              </div>
+              <div class="col-3">
+                  <button type="button"data-number class="mx-auto  ">3</button>  
+              </div>
+              <div class="col-3">
+                  <button type="button"data-operation class=" mx-auto org">x</button>    
+              </div>
+        </div>
+        <div class="row rowwide mt-4">
+            <div class="col-3">
+              <button type="button"data-number class="mx-auto ">4</button>
+            </div>
+            <div class="col-3">
+              <button type="button"data-number class=" mx-auto ">5</button>    
+              </div>
+              <div class="col-3">
+                  <button type="button"data-number class="mx-auto  ">6</button>  
+              </div>
+              <div class="col-3">
+                  <button type="button"data-operation class=" mx-auto org">+</button>    
+              </div>
+        </div>
+        <div class="row rowwide mt-4">
+            <div class="col-3">
+              <button type="button"data-number class="mx-auto ">7</button>
+            </div>
+            <div class="col-3">
+              <button type="button"data-number class=" mx-auto ">8</button>    
+              </div>
+              <div class="col-3">
+                  <button type="button"data-number class="mx-auto  ">9</button>  
+              </div>
+              <div class="col-3">
+                  <button type="button"data-operation class=" mx-auto org">-</button>    
+              </div>
+        </div>
+        <div class="row rowwide mt-4">
+            <div class="col-3">
+              <button type="button"data-number class="mx-auto ">0</button>
+            </div>
+            <div class="col-3">
+              <button type="button" data-number class=" mx-auto ">.</button>    
+              </div>
+              <div class="col-6">
+                  <button type="button"data-equals class="mx-auto backorg ">=</button>  
+              </div>
+            
+        </div>
+      </div>
+  </body>
+</html>
